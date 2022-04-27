@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Calculadora - IMC</h1>
+
+    <div class="container">
+      <div class="first-step">
+        <p>Clique no botão para calcular o seu IMC</p>
+        <button onclick="go(1,2)">Iniciar</button>
+      </div>
+
+      <div class="second-step">
+        <h3>Calcularoda</h3>
+        <hr />
+        <label>Digite seu peso:</label>
+        <input type="number" placeholder="Seu peso" id="peso" />
+        <br /><br />
+        <label>Digite seu altura:</label>
+        <input type="number" placeholder="Sua altura" id="altura" />
+        <br /><br />
+        <button onclick="validate()">calcular</button>
+      </div>
+
+      <div class="final-step">
+        <h3>Resultado!</h3>
+        <p id="resultado"></p>
+        <button onclick="go(3,2)">Calcular novamente</button>
+        <button onclick="go(3,1)">Finalizar</button>
+      </div>
+    </div>
+    <script src="funcc.js"></script>
+  </body>
+</html>

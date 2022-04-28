@@ -1,0 +1,15 @@
+{
+"name": "static",
+"version": "1.0.0",
+"description": "This is a static template with no bundling",
+"main": "index.html",
+"scripts": {
+  "start": "node index"
+},
+"repository": {
+  "type": "git",
+  "url": "https://git.heroku.com/imccalc.git "
+},
+"author": "Gabriel Silva",
+"license": "ICS"
+}

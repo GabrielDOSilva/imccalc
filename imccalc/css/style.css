@@ -23,6 +23,7 @@ button {
   color: #fff;
   border: none;
   padding: 1em;
+  margin:5px;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #000;
   cursor: pointer;
